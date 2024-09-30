@@ -1,4 +1,5 @@
-/Shamir's Secret Sharing Algorithm in C
+#Shamir's Secret Sharing Algorithm in C
+
 ##Overview
 This program is a C implementation of a simplified version of Shamir's Secret Sharing Algorithm. The algorithm works by breaking up a secret into multiple shares (points) such that only a subset of those shares (of size k or more) can reconstruct the secret. The program reads multiple test cases and attempts to find the secret constant term c using the provided points. It also checks whether the given points are valid and determines if any of them are incorrect.
 
